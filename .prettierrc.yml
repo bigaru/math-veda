@@ -1,0 +1,6 @@
+# JS settings
+trailingComma: 'es5'
+semi: false
+singleQuote: true
+printWidth: 160
+multilineArraysWrapThreshold: 4
