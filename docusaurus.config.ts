@@ -1,6 +1,9 @@
 import { themes as prismThemes } from 'prism-react-renderer'
 import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
+import remarkMath from 'remark-math'
+import rehypeMathJax from 'rehype-mathjax'
+import rehypeAsciiMath from 'rehype-asciimath'
 
 const config: Config = {
 	title: 'Math Veda',
@@ -29,6 +32,8 @@ const config: Config = {
 				docs: {
 					sidebarPath: './sidebars.ts',
 					editUrl: 'https://github.com/bigaru/math-veda/',
+					remarkPlugins: [remarkMath],
+					rehypePlugins: [rehypeAsciiMath, rehypeMathJax],
 				},
 				blog: false,
 				theme: {
