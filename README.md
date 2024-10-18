@@ -1,3 +1,3 @@
 # Math Veda
 
-Notes from mathematic lectures
+Notes from mathematics lectures

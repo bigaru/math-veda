@@ -7,7 +7,7 @@ import rehypeAsciiMath from 'rehype-asciimath'
 
 const config: Config = {
 	title: 'Math Veda',
-	tagline: 'notes from mathematic lectures',
+	tagline: 'notes from mathematics lectures',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -31,7 +31,7 @@ const config: Config = {
 			{
 				docs: {
 					sidebarPath: './sidebars.ts',
-					editUrl: 'https://github.com/bigaru/math-veda/',
+					editUrl: 'https://github.com/bigaru/math-veda/blob/main/',
 					remarkPlugins: [remarkMath],
 					rehypePlugins: [rehypeAsciiMath, rehypeMathJax],
 				},
